@@ -13,3 +13,6 @@ tailwind_serve:
 
 watch:
 	@npx @tailwindcss/cli -i static/css/tailwind.css -o static/css/output.css -wm & air
+
+migrate:
+	@go run cmd/migration/main.go
