@@ -16,7 +16,7 @@ func (t *TemplateRenderer) Render(w io.Writer, name string, data any, c echo.Con
 }
 
 func newTemplateRenderer() *TemplateRenderer {
-	return &TemplateRenderer{templates: template.Must(template.ParseGlob("template/*.templ"))}
+	return &TemplateRenderer{templates: template.Must(template.ParseGlob("views/*.templ"))}
 }
 
 type App struct {

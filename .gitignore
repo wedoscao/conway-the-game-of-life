@@ -1,6 +1,9 @@
-build/*
+# Node
 node_modules
 package-lock.json
-go.sum
-tmp
+
+# Tailwindcss
 output.css
+
+# Go
+go.sum
